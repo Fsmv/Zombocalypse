@@ -20,7 +20,7 @@ public class ChaserController : MonoBehaviour {
 		controller = GetComponent<CharacterController> ();
 		directionVector = transform.forward;
 
-		Physics.IgnoreCollision (controller.collider, GetComponent<CapsuleCollider> ());
+		Physics.IgnoreCollision (controller.GetComponent<Collider>(), GetComponent<CapsuleCollider> ());
 	}
 	
 	// Update is called once per frame

@@ -10,6 +10,6 @@ public class zombieWalk : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		target.animation.Play("walk");
+		target.GetComponent<Animation>().Play("walk");
 	}
 }
