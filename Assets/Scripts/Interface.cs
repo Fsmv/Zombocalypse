@@ -14,7 +14,6 @@ public class Interface : MonoBehaviour {
 	public Text ScoreText, EnemiesText, MagazineText, LivesText, wonText, lostText;
 
 	void Start () {
-		numEnemies = 0;
 		score = 0;
 		numLives = 3;
 		lost = false;
@@ -29,9 +28,9 @@ public class Interface : MonoBehaviour {
 		} else {
 			MagazineText.text = "Press R to reload";
 		}
-
+		numEnemies = GameObject.FindGameObjectsWithTag ("enemy").Length;
 		ScoreText.text = score.ToString ();
-		EnemiesText.text = numEnemies.ToString ();
+		EnemiesText.text = GameObject.FindGameObjectsWithTag ("enemy").Length.ToString();
 		LivesText.text = new string ('❤', numLives);
 
 		if (won) {
@@ -43,7 +42,6 @@ public class Interface : MonoBehaviour {
 
 	public void OnEnemyKill(int scoreAmount, bool playerKill) {
 		score += scoreAmount;
-		numEnemies -= 1;
 
 		if (numEnemies == 0 && playerKill) {
 			won = true;
@@ -51,12 +49,10 @@ public class Interface : MonoBehaviour {
 		}
 	}
 
-	public void OnEnemySpawn() {
-		if (!won && !lost) {
-			numEnemies += 1;
-		}
-	}
 
+	public void OnEnemySpawn() {
+	}
+	
 	public void OnPlayerDeath() {
 		if (!won && !lost) {
 			numLives -= 1;
