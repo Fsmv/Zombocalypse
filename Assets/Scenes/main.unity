@@ -1084,7 +1084,7 @@ MonoBehaviour:
   FlashPosition: {x: 0, y: .100000001, z: .600000024}
   FlashRotation: {x: 90, y: 0, z: 0}
   Gun: {fileID: 1769730520}
-  Explosion: {fileID: 105128, guid: 0f517f58ede145c46837a57bb69cf258, type: 2}
+  Explosion: {fileID: 189960, guid: 1eb89033368658f4f9c267253dee1b49, type: 2}
   dust: {fileID: 109440, guid: 9586483563a35264dbfdb13daddbbecb, type: 2}
   iface: {fileID: 1674283218}
 --- !u!114 &728350403
