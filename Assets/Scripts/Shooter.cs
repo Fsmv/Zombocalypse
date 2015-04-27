@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Shooter : MonoBehaviour {
@@ -45,7 +45,8 @@ public class Shooter : MonoBehaviour {
 
 					if(enemy.health <= 0) {
 						iface.OnEnemyKill(enemy.scoreVal, true);
-						Instantiate(Explosion, mouseAim.getCurrHit().point, Quaternion.identity);
+						GameObject explosion = Instantiate(Explosion, mouseAim.getCurrHit().point, Quaternion.identity) as GameObject;
+						Destroy (explosion, 5.0f);
 						Destroy (hit);
 					}
 				}
