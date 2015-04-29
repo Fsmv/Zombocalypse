@@ -12,6 +12,7 @@ public class Tracker : MonoBehaviour {
 	void Start() {
 		playerTracker = Instantiate (playerTracker) as GameObject;
 		playerTracker.transform.parent = gameObject.transform;
+		playerTracker.layer = 5;
 		enemyList = new ArrayList ();
 	}
 
@@ -29,6 +30,7 @@ public class Tracker : MonoBehaviour {
 			if(i >= enemyList.Count) {
 				enemyList.Add (Instantiate (enemyTracker) as GameObject);
 				((GameObject)enemyList[i]).transform.parent = gameObject.transform;
+				((GameObject)enemyList[i]).layer = 5;
 			}
 			((GameObject)enemyList[i]).transform.localPosition = center + enemies[i].transform.position;
 		}
