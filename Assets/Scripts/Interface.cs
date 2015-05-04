@@ -58,7 +58,8 @@ public class Interface : MonoBehaviour {
 			numLives -= 1;
 			if (numLives == 0) {
 				lost = true;
-				stopGame ();
+				//stopGame ();
+				Application.LoadLevel(2);
 			}
 		}
 	}
