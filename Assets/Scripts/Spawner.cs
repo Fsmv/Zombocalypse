@@ -3,28 +3,38 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 	public GameObject ObjectToSpawn;
-	public int totalToSpawn;
-	public float spawnInterval;
-	public float variance;
-	public Transform north, south, east, west;
-	public float yPos;
-	public Interface iface;
-	public const int buffer = 5;
+	public int totalToSpawn = 10;
+	public float spawnInterval = 1.0f;
 	
+	// Use this for initialization
 	void Start () {
-		StartCoroutine(Spawn());
+		StartCoroutine (spawn ());
 	}
 
-	IEnumerator Spawn() {
-		for (int i = 0; i < totalToSpawn; i++) {
-			yield return new WaitForSeconds(spawnInterval + Random.Range(-variance, variance));
+	private Vector3 getRandomPosition(){
+		int random = Random.Range (0, 3);
+		//make a random position on each side of the house to spawn the zombies
+		switch(random){
+		case 0:
+			return new Vector3(Random.Range(-25,25), 100.0f,Random.Range(12,15));
+		case 1:
+			return new Vector3(Random.Range(-25,25), 100.0f,Random.Range(-15,-13));
+		case 2:
+			return new Vector3(Random.Range(-25,25), 100.0f,Random.Range(-13,-25));
+		default:
+			return new Vector3(Random.Range(19,25), 100.0f,Random.Range(-25,25));
+		}
 
-			Vector3 position = new Vector3 (Random.Range(west.position.x + buffer, east.position.x - buffer),
-			                                yPos,
-			                                Random.Range(south.position.z + buffer, north.position.z - buffer));
-			GameObject enemy = Instantiate (ObjectToSpawn, position, Quaternion.identity) as GameObject;
-			enemy.transform.Rotate(0.0f, Random.Range(-180.0f, 180.0f), 0.0f);
-			iface.OnEnemySpawn();
+	}
+
+	IEnumerator spawn(){
+		for(int i = 0; i < totalToSpawn; i++){
+			GameObject instance;
+			
+			Vector3 position = getRandomPosition();
+			instance = Instantiate(ObjectToSpawn,position, Quaternion.identity) as GameObject;
+			yield return new WaitForSeconds(spawnInterval);
 		}
 	}
+	
 }
