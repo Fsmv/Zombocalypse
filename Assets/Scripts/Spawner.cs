@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour {
 	void Start () {
 		StartCoroutine (spawn ());
 	}
-
+	
 	private Vector3 getRandomPosition(){
 		int random = Random.Range (0, 3);
 		//make a random position on each side of the house to spawn the zombies
@@ -24,9 +24,9 @@ public class Spawner : MonoBehaviour {
 		default:
 			return new Vector3(Random.Range(19,25), 100.0f,Random.Range(-25,25));
 		}
-
+		
 	}
-
+	
 	IEnumerator spawn(){
 		for(int i = 0; i < totalToSpawn; i++){
 			GameObject instance;
