@@ -8,7 +8,6 @@ public class HealthTracker : MonoBehaviour {
 		if (hit.gameObject.tag == "enemy") {
 			Destroy(hit.gameObject);
 			iface.OnPlayerDeath();
-
 		}
 	}
 }
