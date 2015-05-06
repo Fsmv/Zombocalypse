@@ -19,5 +19,9 @@ Sounds:
   - Reload: http://freesound.org/people/Fr3yr/sounds/100804/
   - pounding: http://freesound.org/people/jhumbucker/sounds/250539/
   - wood splintering/crunch: http://freesound.org/people/qubodup/sounds/160213/
- 
+
+Music:
+  - All music from: http://derekaudette.ottawaarts.com/music.php
+  - In the Bowels of Sanctuary: http://derekaudette.ottawaarts.com/music/oct2010/In_The_Bowels_of_Sanctuary-Derek_R_Audette.mp3
+  - The Lonesome Death of Jonas Grumby: http://derekaudette.ottawaarts.com/music/TheLonesomeDeathofJonasGrumby_DRAUDETTE_4web.mp3
 Plus we have Swat Guy with animations from the Unity 4.x cookbook sample project for Chapter 5

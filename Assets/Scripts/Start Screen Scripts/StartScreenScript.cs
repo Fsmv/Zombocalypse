@@ -14,15 +14,12 @@ public class StartScreenScript : MonoBehaviour {
 			
 			GUI.Box(new Rect(0,0,100,90), "Credits");
 
-			if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Main Menu")) {
-				showMenu=!showMenu;
-			}
-
 			GUI.EndGroup();
 		}
 		
 		if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Credits")) {
 			showMenu=!showMenu;
+			Application.OpenURL("http://derekaudette.ottawaarts.com/music.php");
 		}
 		
 		if(GUI.Button( new Rect( Screen.width/3 - 90,Screen.height/2 + 175, 180, 65),"Start the Game")) {
