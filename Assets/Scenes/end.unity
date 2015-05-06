@@ -254,7 +254,7 @@ GameObject:
   - 4: {fileID: 819238246}
   - 114: {fileID: 819238245}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Menu Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
