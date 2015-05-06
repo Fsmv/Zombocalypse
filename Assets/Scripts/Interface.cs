@@ -8,10 +8,11 @@ public class Interface : MonoBehaviour {
 	private int numLives;
 	private bool lost;
 	private bool won;
+	private int waveNum = 0;
 
 	public int startLives = 3;
 	public Shooter shooter;
-	public Text ScoreText, EnemiesText, MagazineText, LivesText, wonText, lostText;
+	public Text ScoreText, EnemiesText, MagazineText, LivesText, wonText, lostText, WaveText;
 
 	void Start () {
 		score = 0;
@@ -32,7 +33,7 @@ public class Interface : MonoBehaviour {
 		ScoreText.text = score.ToString ();
 		EnemiesText.text = GameObject.FindGameObjectsWithTag ("enemy").Length.ToString();
 		LivesText.text = new string ('❤', numLives);
-
+		WaveText.text = "Wave: " + waveNum.ToString ();
 		if (won) {
 			wonText.enabled = true;
 		} else if (lost) {
@@ -51,6 +52,10 @@ public class Interface : MonoBehaviour {
 
 
 	public void OnEnemySpawn() {
+	}
+
+	public void OnNewWave(){
+		waveNum++;
 	}
 	
 	public void OnPlayerDeath() {
