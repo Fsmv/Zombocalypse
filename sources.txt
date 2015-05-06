@@ -17,5 +17,7 @@ Sounds:
   - Empty Shoot: http://freesound.org/people/KlawyKogut/sounds/154934/
   - Gun Shot: http://freesound.org/people/hannagreen/sounds/254772/
   - Reload: http://freesound.org/people/Fr3yr/sounds/100804/
+  - pounding: http://freesound.org/people/jhumbucker/sounds/250539/
+  - wood splintering/crunch: http://freesound.org/people/qubodup/sounds/160213/
  
 Plus we have Swat Guy with animations from the Unity 4.x cookbook sample project for Chapter 5
