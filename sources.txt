@@ -11,6 +11,7 @@ Terrain Assets: https://www.assetstore.unity3d.com/en/#!/content/6
 Wood Bars: https://www.assetstore.unity3d.com/en/#!/content/19237
 Military Rifle Free: https://www.assetstore.unity3d.com/en/content/26680
 Muzzle Flare: http://www.mediafire.com/download/acaez84spnvqime/Muzzleflash.unitypackage
+Blood textures: http://opengameart.org/content/animated-particle-effects-2
 
 Sounds:
   - Empty Shoot: http://freesound.org/people/KlawyKogut/sounds/154934/
