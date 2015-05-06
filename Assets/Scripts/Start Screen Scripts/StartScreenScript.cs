@@ -13,6 +13,12 @@ public class StartScreenScript : MonoBehaviour {
 			GUI.BeginGroup(new Rect(Screen.width/2-50,Screen.height/2 -45,100,90));
 			
 			GUI.Box(new Rect(0,0,100,90), "Credits");
+
+			if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Main Menu")) {
+				showMenu=!showMenu;
+			}
+
+			GUI.EndGroup();
 		}
 		
 		if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Credits")) {

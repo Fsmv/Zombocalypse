@@ -1,6 +1,23 @@
+Add this somewhere:
+   Controls:
+   WASD to move, QE to rotate the camera, Left click to shoot, shift to run, R to reload.
+
 Skybox: http://opengameart.org/content/gloomy-skybox
 Walls Texture: http://farm8.staticflickr.com/7124/7487844162_3d40cb4518_z.jpg
 Shanty Town - Brush Vegetation: https://www.assetstore.unity3d.com/en/#!/content/41
 Shanty Town - Table Wood: https://www.assetstore.unity3d.com/en/#!/content/69
 Shanty Town - Refrigerator: https://www.assetstore.unity3d.com/en/#!/content/64
 Terrain Assets: https://www.assetstore.unity3d.com/en/#!/content/6
+Wood Bars: https://www.assetstore.unity3d.com/en/#!/content/19237
+Military Rifle Free: https://www.assetstore.unity3d.com/en/content/26680
+Muzzle Flare: http://www.mediafire.com/download/acaez84spnvqime/Muzzleflash.unitypackage
+Blood textures: http://opengameart.org/content/animated-particle-effects-2
+
+Sounds:
+  - Empty Shoot: http://freesound.org/people/KlawyKogut/sounds/154934/
+  - Gun Shot: http://freesound.org/people/hannagreen/sounds/254772/
+  - Reload: http://freesound.org/people/Fr3yr/sounds/100804/
+  - pounding: http://freesound.org/people/jhumbucker/sounds/250539/
+  - wood splintering/crunch: http://freesound.org/people/qubodup/sounds/160213/
+ 
+Plus we have Swat Guy with animations from the Unity 4.x cookbook sample project for Chapter 5
