@@ -4016,7 +4016,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.07000017
+      value: 17.8099995
       objectReference: {fileID: 0}
     - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5046,3 +5046,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 821008496}
   m_RootOrder: 0
+--- !u!1 &2086804244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2086804246}
+  - 114: {fileID: 2086804245}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2086804245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086804244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59047c0d7f1b4470ca78946654bd10e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToSpawn: {fileID: 719004658}
+  totalToSpawn: 10
+  spawnInterval: 1
+--- !u!4 &2086804246
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086804244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.890476048, y: 118.935158, z: 5.34755754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
