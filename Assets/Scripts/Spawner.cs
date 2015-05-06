@@ -13,9 +13,9 @@ public class Spawner : MonoBehaviour {
 	void Update(){
 		//handle a new wave
 		if (GameObject.FindGameObjectsWithTag ("enemy").Length == 0 && newWave) {
+			iface.OnNewWave();
 			newWave = false;
 			totalToSpawn += numZombiesPerWave;
-			iface.OnNewWave();
 			StartCoroutine (spawn ());
 		}
 	}
