@@ -3,12 +3,21 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 	public GameObject ObjectToSpawn;
-	public int totalToSpawn = 10;
+	public int totalToSpawn = 0;
 	public float spawnInterval = 1.0f;
-	
-	// Use this for initialization
-	void Start () {
-		StartCoroutine (spawn ());
+	public Interface iface;
+	public int numZombiesPerWave;
+	public Transform playerTransform;
+	private bool newWave = true;
+
+	void Update(){
+		//handle a new wave
+		if (GameObject.FindGameObjectsWithTag ("enemy").Length == 0 && newWave) {
+			newWave = false;
+			totalToSpawn += numZombiesPerWave;
+			iface.OnNewWave();
+			StartCoroutine (spawn ());
+		}
 	}
 	
 	private Vector3 getRandomPosition(){
@@ -30,11 +39,12 @@ public class Spawner : MonoBehaviour {
 	IEnumerator spawn(){
 		for(int i = 0; i < totalToSpawn; i++){
 			GameObject instance;
-			
 			Vector3 position = getRandomPosition();
 			instance = Instantiate(ObjectToSpawn,position, Quaternion.identity) as GameObject;
+			instance.GetComponent<NavMeshFollow>().target = playerTransform;
 			yield return new WaitForSeconds(spawnInterval);
 		}
+		newWave = true;
 	}
 	
 }
