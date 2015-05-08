@@ -20,9 +20,14 @@ public class Tracker : MonoBehaviour {
 		playerTracker.transform.localPosition = center + GameObject.FindGameObjectWithTag ("Player").transform.position;
 		GameObject[] enemies = GameObject.FindGameObjectsWithTag ("enemy");
 		if (enemyList.Count > enemies.GetLength (0)) {
-			for (int i = enemyList.Count - 1; i >= enemies.GetLength(0) - 1; ++i) {
-				Destroy ((GameObject)enemyList[i]);
-				enemyList.RemoveAt(i);
+			ArrayList deleteList = new ArrayList();
+			for (int i = enemies.GetLength (0) - 1; i < enemyList.Count; ++i) {
+				deleteList.Add(enemyList[i]);
+			}
+
+			foreach (GameObject go in deleteList) {
+				Destroy (go);
+				enemyList.Remove(go);
 			}
 		}
 
