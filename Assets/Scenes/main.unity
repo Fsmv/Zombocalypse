@@ -1274,6 +1274,7 @@ GameObject:
   - 124: {fileID: 520113145}
   - 92: {fileID: 520113144}
   - 81: {fileID: 520113143}
+  - 114: {fileID: 520113147}
   m_Layer: 2
   m_Name: CameraBehind
   m_TagString: MainCamera
@@ -1334,7 +1335,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: .00999999978
   far clip plane: 3000
   field of view: 60
   orthographic: 0
@@ -1350,6 +1351,27 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+--- !u!114 &520113147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520113141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7348893cabfc44e3ba8c1993355660c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 728350400}
+  distance: 1.88
+  height: 1.5
+  damping: 5
+  smoothRotation: 1
+  rotationDamping: 10
+  targetLookAtOffset: {x: 0, y: 2, z: 0}
+  bumperDistanceCheck: 2.5
+  bumperCameraHeight: 1
+  bumperRayOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &524672317
 GameObject:
   m_ObjectHideFlags: 0
@@ -5390,8 +5412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToSpawn: {fileID: 157676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-  totalToSpawn: 10
-  spawnInterval: 1
+  totalToSpawn: 1
+  spawnInterval: 0
   iface: {fileID: 1674283218}
   numZombiesPerWave: 5
   playerTransform: {fileID: 728350400}

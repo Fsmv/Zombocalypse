@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 	public GameObject ObjectToSpawn;
-	public int totalToSpawn = 0;
-	public float spawnInterval = 1.0f;
+	public int totalToSpawn = 1;
+	public float spawnInterval = 0.0f;
 	public Interface iface;
 	public int numZombiesPerWave;
 	public Transform playerTransform;
@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour {
 		if (GameObject.FindGameObjectsWithTag ("enemy").Length == 0 && newWave) {
 			iface.OnNewWave();
 			newWave = false;
-			totalToSpawn += numZombiesPerWave;
+			totalToSpawn *= numZombiesPerWave;
 			StartCoroutine (spawn ());
 		}
 	}
