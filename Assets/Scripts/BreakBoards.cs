@@ -4,18 +4,23 @@ using System.Collections;
 public class BreakBoards : MonoBehaviour {
 	public GameObject one,two,three;
 	public float timeToBreak = 2.0f;
+	public float timeToRepair = 8.0f;
 	public bool unbreakable = false;
 
 	private AudioSource pounding, breaking;
+	private NavMeshObstacle obstacle;
 
 	private int health = 3;
 	private float lastTime = 0;
 	private bool startedTimer = false;
+	private float lastRepairTime = 0;
+	private bool startedRepair = false;
 	private int collisionCount = 0;
 	private const int HEART_BEAT_START = 5;
 	private int heartBeatTimer = HEART_BEAT_START;
 
 	void Start() {
+		obstacle = GetComponent<NavMeshObstacle> ();
 		foreach (AudioSource source in GetComponents<AudioSource>()) {
 			if (source.clip.name == "pounding") {
 				pounding = source;
@@ -37,16 +42,18 @@ public class BreakBoards : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider collision) {
-		collisionCount += 1;
-		if (!startedTimer) {
-			lastTime = Time.realtimeSinceStartup;
-			startedTimer = true;
-			pounding.Play ();
+		if (collision.gameObject.CompareTag ("enemy")) {
+			collisionCount += 1;
+			if (health > 0 && !startedTimer) {
+				lastTime = Time.realtimeSinceStartup;
+				startedTimer = true;
+				pounding.Play ();
+			}
 		}
 	}
 
 	void OnTriggerStay(Collider collision) {
-		if (startedTimer && collision.gameObject.CompareTag ("enemy")) {
+		if (health > 0 && startedTimer && collision.gameObject.CompareTag ("enemy")) {
 			heartBeatTimer = HEART_BEAT_START;
 			if (Time.realtimeSinceStartup - lastTime >= timeToBreak) {
 				if (!unbreakable) {
@@ -54,14 +61,16 @@ public class BreakBoards : MonoBehaviour {
 					breaking.Play ();
 					switch (health) {
 					case 2:
-						Destroy (three);
+						three.SetActive(false);
 						break;
 					case 1:
-						Destroy (two);
+						two.SetActive(false);
 						break;
 					case 0:
-						Destroy (one);
-						Destroy (gameObject);
+						one.SetActive(false);
+						obstacle.enabled = false;
+						startedTimer = false;
+						pounding.Stop();
 						break;
 					default:
 						break;
@@ -69,6 +78,36 @@ public class BreakBoards : MonoBehaviour {
 				}
 
 				lastTime = Time.realtimeSinceStartup;
+			}
+		}else if (collision.gameObject.CompareTag ("Player")) {
+			if(Input.GetButton("Repair")) {
+				if(!startedRepair) {
+					lastRepairTime = Time.realtimeSinceStartup;
+					startedRepair = true;
+				}
+				if (Time.realtimeSinceStartup - lastRepairTime >= timeToRepair) {
+					if(health <= 3) {
+					health += 1;
+						switch (health) {
+						case 3:
+							three.SetActive(true);
+							break;
+						case 2:
+							two.SetActive(true);
+							break;
+						case 1:
+							one.SetActive(true);
+							obstacle.enabled = true;
+							break;
+						default:
+							break;
+						}
+					}
+					lastRepairTime = Time.realtimeSinceStartup;
+				}
+			}else{
+				lastRepairTime = Time.realtimeSinceStartup;
+				startedRepair = false;
 			}
 		}
 	}
@@ -82,6 +121,10 @@ public class BreakBoards : MonoBehaviour {
 	}
 
 	void OnTriggerExit(Collider collision) {
-		onLostContact ();
+		if (collision.gameObject.CompareTag ("enemy")) {
+			onLostContact ();
+		}else if(collision.gameObject.CompareTag("Player")) {
+			startedRepair = false;
+		}
 	}
 }

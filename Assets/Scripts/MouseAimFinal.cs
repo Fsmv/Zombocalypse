@@ -42,7 +42,7 @@ public class MouseAimFinal : MonoBehaviour {
 		}
 
 		aimLoc =  Camera.main.WorldToViewportPoint(point);
-		Physics.Raycast (armedHand.position, point - armedHand.position, out currHit);
+		Physics.Raycast (armedHand.position, point - armedHand.position, out currHit, 10000.0f, ~((1 << 9) | (1 << 2)));
 		Debug.DrawRay (armedHand.position, point - armedHand.position, Color.red);		
     }
 	
