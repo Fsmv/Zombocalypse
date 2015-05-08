@@ -1364,13 +1364,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 728350400}
   distance: 1.88
-  height: 1.5
+  height: 2
   damping: 5
-  smoothRotation: 1
+  smoothRotation: 0
   rotationDamping: 10
-  targetLookAtOffset: {x: 0, y: 2, z: 0}
-  bumperDistanceCheck: 2.5
-  bumperCameraHeight: 1
+  targetLookAtOffset: {x: 0, y: 1.5, z: 0}
+  bumperDistanceCheck: 2.20000005
+  bumperCameraHeight: 1.5
   bumperRayOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &524672317
 GameObject:
