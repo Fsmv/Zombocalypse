@@ -19,5 +19,6 @@ Sounds:
   - Reload: http://freesound.org/people/Fr3yr/sounds/100804/
   - pounding: http://freesound.org/people/jhumbucker/sounds/250539/
   - wood splintering/crunch: http://freesound.org/people/qubodup/sounds/160213/
+  - hammering: http://soundbible.com/2082-Hammering.html
  
 Plus we have Swat Guy with animations from the Unity 4.x cookbook sample project for Chapter 5
