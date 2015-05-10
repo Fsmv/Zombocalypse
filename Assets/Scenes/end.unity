@@ -272,6 +272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   background: {fileID: 2800000, guid: a87ec77349a9d436c9009a7bae9ca817, type: 3}
+  wave: 0
+  score: 10000000
 --- !u!4 &819238246
 Transform:
   m_ObjectHideFlags: 0
