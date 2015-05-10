@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class BreakBoards : MonoBehaviour {
 	public GameObject one,two,three;
 	public float timeToBreak = 2.0f;
 	public float timeToRepair = 8.0f;
 	public bool unbreakable = false;
+	public Text repairingText;
 
 	private AudioSource pounding, breaking, repairing;
 	private NavMeshObstacle obstacle;
@@ -82,12 +84,27 @@ public class BreakBoards : MonoBehaviour {
 				lastTime = Time.realtimeSinceStartup;
 			}
 		}else if (collision.gameObject.CompareTag ("Player")) {
+			repairingText.enabled = true;
+
 			if(Input.GetButton("Repair")) {
 				if(!startedRepair) {
 					lastRepairTime = Time.realtimeSinceStartup;
 					startedRepair = true;
 					repairing.Play();
 				}
+
+				int timeLeft = (int)(Time.realtimeSinceStartup - lastRepairTime);
+				string progressText = "[";
+				for (int i = 1; i <= (int) timeToRepair; i++) {
+					if (i <= timeLeft) {
+						progressText += "-";
+					}else{
+						progressText += " ";
+					}
+				}
+				progressText += "]";
+				repairingText.text = progressText;
+
 				if (Time.realtimeSinceStartup - lastRepairTime >= timeToRepair) {
 					if(health <= 3) {
 					health += 1;
@@ -109,6 +126,7 @@ public class BreakBoards : MonoBehaviour {
 					lastRepairTime = Time.realtimeSinceStartup;
 				}
 			}else{
+				repairingText.text = "Hold F to Repair";
 				lastRepairTime = Time.realtimeSinceStartup;
 				startedRepair = false;
 				repairing.Stop();
@@ -129,6 +147,8 @@ public class BreakBoards : MonoBehaviour {
 			onLostContact ();
 		}else if(collision.gameObject.CompareTag("Player")) {
 			startedRepair = false;
+			repairingText.enabled = false;
+			repairing.Stop();
 		}
 	}
 }
