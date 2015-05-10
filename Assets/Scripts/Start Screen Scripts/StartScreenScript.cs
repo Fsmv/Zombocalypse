@@ -7,7 +7,7 @@ public class StartScreenScript : MonoBehaviour {
 
 		Destroy (GameObject.Find("Persistent Data Storage"));
 		
-		if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Credits")) {
+		if (GUI.Button (new Rect ((Screen.width*2) / 3 - 90, Screen.height / 2 + 175, 180, 65), "Credits & Controls")) {
 			Application.LoadLevel(3);
 		}
 		
