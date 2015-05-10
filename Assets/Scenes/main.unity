@@ -99,7 +99,7 @@ GameObject:
   - 124: {fileID: 10981589}
   - 92: {fileID: 10981588}
   - 81: {fileID: 10981587}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CameraTop
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 25760466}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   - 124: {fileID: 27656708}
   - 92: {fileID: 27656707}
   - 81: {fileID: 27656706}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CameraCloser
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 41484369}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 41918445}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,6 +346,48 @@ Transform:
   - {fileID: 821008496}
   m_Father: {fileID: 746468059}
   m_RootOrder: 0
+--- !u!1001 &47366318
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1937143198}
+    m_Modifications:
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -24.8493862
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .424110413
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.41266823
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &113687654
 Prefab:
   m_ObjectHideFlags: 0
@@ -412,7 +454,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 114549929}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +541,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 130988696}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +561,7 @@ Transform:
   - {fileID: 1681743937}
   m_Father: {fileID: 244731157}
   m_RootOrder: 0
---- !u!114 &182624243 stripped
+--- !u!114 &182624243
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494284, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -593,7 +635,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 192444690}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +663,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 240628515}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +695,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 240828803}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +785,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 244731157}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +813,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 274782195}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +849,7 @@ GameObject:
   - 54: {fileID: 277571233}
   - 59: {fileID: 277571232}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: SwingingDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -910,11 +952,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 277571231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.2139997, y: 101.330002, z: 1.96899998}
+  m_LocalPosition: {x: -6.43638611, y: .275115967, z: -.0713319778}
   m_LocalScale: {x: 1.14591563, y: 2.55441594, z: .062492542}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1937143198}
+  m_RootOrder: 4
+--- !u!4 &282365175
+Transform:
+  m_PrefabParentObject: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_PrefabInternal: {fileID: 970392074}
 --- !u!1 &307083084
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,7 +969,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 307083085}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +989,7 @@ Transform:
   - {fileID: 564921090}
   m_Father: {fileID: 1116641013}
   m_RootOrder: 1
---- !u!114 &315808800 stripped
+--- !u!114 &315808800
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494278, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -977,7 +1023,7 @@ Transform:
   - {fileID: 1943309879}
   - {fileID: 2060542688}
   m_Father: {fileID: 827020817}
-  m_RootOrder: 4
+  m_RootOrder: 6
 --- !u!1 &348423479
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,7 +1032,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 348423480}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1005,7 +1051,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1903090137}
   m_RootOrder: 0
---- !u!1 &365515867 stripped
+--- !u!1 &365515867
 GameObject:
   m_PrefabParentObject: {fileID: 100016, guid: 4be90c5d9ce40a648bb37474c93d9c02, type: 3}
   m_PrefabInternal: {fileID: 568621403}
@@ -1029,7 +1075,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 383907171}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,6 +1095,10 @@ Transform:
   - {fileID: 996976349}
   m_Father: {fileID: 274782195}
   m_RootOrder: 1
+--- !u!4 &389239612
+Transform:
+  m_PrefabParentObject: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_PrefabInternal: {fileID: 836011880}
 --- !u!1 &407660484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,7 +1107,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 407660485}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1106,7 +1156,7 @@ Transform:
   m_LocalScale: {x: 2.09746623, y: 1, z: 1.40580642}
   m_Children: []
   m_Father: {fileID: 827020817}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!23 &421792180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1208,7 +1258,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fac2f1d1f598eeb4fafbb730657a795f, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &457648011 stripped
+--- !u!4 &457648011
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: fac2f1d1f598eeb4fafbb730657a795f, type: 2}
   m_PrefabInternal: {fileID: 431852005}
@@ -1224,7 +1274,8 @@ GameObject:
   - 124: {fileID: 520113145}
   - 92: {fileID: 520113144}
   - 81: {fileID: 520113143}
-  m_Layer: 0
+  - 114: {fileID: 520113147}
+  m_Layer: 2
   m_Name: CameraBehind
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1284,7 +1335,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: .00999999978
   far clip plane: 3000
   field of view: 60
   orthographic: 0
@@ -1300,6 +1351,27 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+--- !u!114 &520113147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520113141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7348893cabfc44e3ba8c1993355660c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 728350400}
+  distance: 1.88
+  height: 2
+  damping: 5
+  smoothRotation: 0
+  rotationDamping: 10
+  targetLookAtOffset: {x: 0, y: 1.5, z: 0}
+  bumperDistanceCheck: 2.20000005
+  bumperCameraHeight: 1.5
+  bumperRayOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &524672317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,7 +1416,7 @@ Transform:
   - {fileID: 2013674166}
   - {fileID: 1283478020}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &527094646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1425,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 527094647}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1382,7 +1454,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 552460606}
   - 108: {fileID: 552460607}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1513,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 564921090}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1579,7 +1651,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 591113186}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1606,7 +1678,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 592058152}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftFootToeBase_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1767,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 679434270}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1723,7 +1795,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 685853928}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1743,68 +1815,6 @@ Transform:
   - {fileID: 855668707}
   m_Father: {fileID: 1352941166}
   m_RootOrder: 0
---- !u!1 &719004658 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 157676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-  m_PrefabInternal: {fileID: 1723535263}
---- !u!114 &719004660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 719004658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfad314e8186d174886324ca2e910e53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 728350400}
---- !u!195 &719004661
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 719004658}
-  m_Enabled: 1
-  m_Radius: .300000012
-  m_Speed: 1
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!136 &719004665
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 719004658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: .300000012
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &719004666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 719004658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b385e11e63f14da47bbc9747cb524a88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  scoreVal: 100
 --- !u!1 &728350399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,7 +1831,8 @@ GameObject:
   - 114: {fileID: 728350401}
   - 114: {fileID: 728350407}
   - 114: {fileID: 728350408}
-  m_Layer: 0
+  - 136: {fileID: 728350409}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1835,7 +1846,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 728350399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalPosition: {x: 9.78999996, y: 100.68, z: -1.96000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1333157855}
@@ -1857,7 +1868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b00c85b6396f248bb924a45cffbccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DrownTime: 15
+  DrownTime: 5
   waterHeight: 0
   breathText: {fileID: 182624243}
   iface: {fileID: 1674283218}
@@ -1975,6 +1986,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iface: {fileID: 1674283218}
+  Explosion: {fileID: 189960, guid: 1eb89033368658f4f9c267253dee1b49, type: 2}
+--- !u!136 &728350409
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728350399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: .400000006
+  m_Height: 1.78999996
+  m_Direction: 1
+  m_Center: {x: 0, y: .899999976, z: 0}
 --- !u!1 &732908146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,7 +2008,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 732908147}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2036,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 738940830}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2039,7 +2064,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 746468059}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2133,7 +2158,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 781166333}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2161,7 +2186,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 808449805}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2188,7 +2213,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 816340546}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2208,7 +2233,7 @@ Transform:
   - {fileID: 527094647}
   m_Father: {fileID: 274782195}
   m_RootOrder: 2
---- !u!4 &817668723 stripped
+--- !u!4 &817668723
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 0bd8ead843a334c0f9b90296f343e6fc, type: 3}
   m_PrefabInternal: {fileID: 113687654}
@@ -2220,7 +2245,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 821008496}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2265,6 +2290,8 @@ Transform:
   m_LocalPosition: {x: -9.96000004, y: 100, z: -5.9000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2031104777}
+  - {fileID: 1937143198}
   - {fileID: 2073615352}
   - {fileID: 421792179}
   - {fileID: 853260702}
@@ -2274,7 +2301,53 @@ Transform:
   - {fileID: 1956064122}
   - {fileID: 956090759}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
+--- !u!1001 &836011880
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1937143198}
+    m_Modifications:
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.74138641
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .457115173
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.323668
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 120814, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_Name
+      value: Door Block 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &841107874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2356,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 841107875}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2332,7 +2405,7 @@ Transform:
   - {fileID: 1452959758}
   - {fileID: 817668723}
   m_Father: {fileID: 827020817}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &855668706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,7 +2414,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 855668707}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2462,7 +2535,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 858641966}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2490,7 +2563,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 864613190}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2518,7 +2591,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 873101706}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2564,7 +2637,53 @@ Transform:
   m_Children:
   - {fileID: 1643409864}
   m_Father: {fileID: 827020817}
-  m_RootOrder: 7
+  m_RootOrder: 9
+--- !u!1001 &970392074
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1937143198}
+    m_Modifications:
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -9.35638714
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .349113464
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.88366795
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 120814, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_Name
+      value: Door Block 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &996976348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,7 +2692,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 996976349}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Neck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2593,7 +2712,7 @@ Transform:
   - {fileID: 1050945912}
   m_Father: {fileID: 383907171}
   m_RootOrder: 0
---- !u!4 &1006589910 stripped
+--- !u!4 &1006589910
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 235d4aa4b3c45544293f97602638feaa, type: 3}
   m_PrefabInternal: {fileID: 1873603391}
@@ -2605,7 +2724,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1009140852}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2633,7 +2752,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1015608461}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2661,7 +2780,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1016055250}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2739,7 +2858,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80009c74748d82047b88c3f400e09c3d, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1032456681 stripped
+--- !u!4 &1032456681
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 82bd091e663ee4f1cab914b91dc937e8, type: 3}
   m_PrefabInternal: {fileID: 780939159}
@@ -2751,7 +2870,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1043777391}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2779,7 +2898,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1050945912}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2837,7 +2956,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22494270, guid: a10a1d572c6555442820aae6acdf3275, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 22494270, guid: a10a1d572c6555442820aae6acdf3275, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -2948,7 +3067,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1116641013}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2978,7 +3097,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1118757904}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3052,7 +3171,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1194289430}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3080,7 +3199,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1219596534}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3169,7 +3288,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1462151696}
   m_GameObject: {fileID: 1221409543}
---- !u!114 &1272188561 stripped
+--- !u!114 &1272188561
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494272, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -3307,7 +3426,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
 --- !u!1 &1324697331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,7 +3435,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1324697332}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3362,7 +3481,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 827020817}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!1 &1333157854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,7 +3491,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1333157855}
   - 137: {fileID: 1333157856}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: solder_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3488,7 +3607,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1334474420}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3574,7 +3693,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1352941166}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3594,7 +3713,7 @@ Transform:
   - {fileID: 685853928}
   m_Father: {fileID: 841107875}
   m_RootOrder: 0
---- !u!114 &1397565741 stripped
+--- !u!114 &1397565741
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494280, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -3608,7 +3727,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1417810799}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3636,7 +3755,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1442494373}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3656,11 +3775,11 @@ Transform:
   - {fileID: 1009140852}
   m_Father: {fileID: 1855896302}
   m_RootOrder: 5
---- !u!4 &1452959758 stripped
+--- !u!4 &1452959758
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: c88a38d02ad5b4d9595bdca7b1aaac46, type: 3}
   m_PrefabInternal: {fileID: 1160461389}
---- !u!1 &1459981094 stripped
+--- !u!1 &1459981094
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 0cd7a7c221fea2f449a3fe6027a20675, type: 3}
   m_PrefabInternal: {fileID: 857024720}
@@ -3766,7 +3885,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1470356509}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3786,11 +3905,11 @@ Transform:
   - {fileID: 244731157}
   m_Father: {fileID: 1116641013}
   m_RootOrder: 0
---- !u!4 &1476537302 stripped
+--- !u!4 &1476537302
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: c764d1d0273921641a0ed3c8bb41e77c, type: 2}
   m_PrefabInternal: {fileID: 1083718829}
---- !u!4 &1509824788 stripped
+--- !u!4 &1509824788
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b218198d99ee7a744858e424bf97fe74, type: 2}
   m_PrefabInternal: {fileID: 1336566395}
@@ -3802,7 +3921,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1514755565}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3884,11 +4003,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1539805362}
   m_Mesh: {fileID: 4300000, guid: 33124c60b0c39aa4c887ada2c05fa06a, type: 3}
---- !u!4 &1607279596 stripped
+--- !u!4 &1607279596
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 2}
   m_PrefabInternal: {fileID: 1020748789}
---- !u!114 &1629727006 stripped
+--- !u!114 &1629727006
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494276, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -3902,7 +4021,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1638717739}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3922,15 +4041,65 @@ Transform:
   - {fileID: 1903090137}
   m_Father: {fileID: 1043777391}
   m_RootOrder: 0
---- !u!4 &1643409864 stripped
+--- !u!1001 &1642598473
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1937143198}
+    m_Modifications:
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -18.0373859
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .43611145
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -7.3133316
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120814, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+      propertyPath: m_Name
+      value: Door Block 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1643409864
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1da67dcf0dc91a745a078e8dbc92a146, type: 2}
   m_PrefabInternal: {fileID: 243161041}
---- !u!1 &1674283216 stripped
+--- !u!4 &1664740652
+Transform:
+  m_PrefabParentObject: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_PrefabInternal: {fileID: 47366318}
+--- !u!1 &1674283216
 GameObject:
   m_PrefabParentObject: {fileID: 194270, guid: a10a1d572c6555442820aae6acdf3275, type: 2}
   m_PrefabInternal: {fileID: 1076384919}
---- !u!224 &1674283217 stripped
+--- !u!224 &1674283217
 RectTransform:
   m_PrefabParentObject: {fileID: 22494270, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -3963,7 +4132,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1677823209}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3990,7 +4159,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1681743937}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4018,7 +4187,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1694573598}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4111,7 +4280,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4c9d405d7440f54497e83da64d11c4c, type: 3}
   m_IsPrefabParent: 0
---- !u!114 &1704233304 stripped
+--- !u!114 &1704233304
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494286, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -4148,7 +4317,7 @@ Transform:
   - {fileID: 1607279596}
   - {fileID: 1476537302}
   m_Father: {fileID: 827020817}
-  m_RootOrder: 5
+  m_RootOrder: 7
 --- !u!1 &1716807532
 GameObject:
   m_ObjectHideFlags: 0
@@ -4157,7 +4326,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1716807533}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4177,72 +4346,7 @@ Transform:
   - {fileID: 1828902927}
   m_Father: {fileID: 1015608461}
   m_RootOrder: 0
---- !u!1001 &1723535263
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 17.8099995
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 100.730003
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 5.28999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 457676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11457730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: moveSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 157676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 13657730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_Radius
-      value: .400000006
-      objectReference: {fileID: 0}
-    - target: {fileID: 14357730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: m_Radius
-      value: .300000012
-      objectReference: {fileID: 0}
-    - target: {fileID: 8257730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-      propertyPath: MinDistance
-      value: .982826233
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 13657730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-    - {fileID: 11457730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-    - {fileID: 14357730, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &1729820065 stripped
+--- !u!114 &1729820065
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11494274, guid: a10a1d572c6555442820aae6acdf3275,
     type: 2}
@@ -4256,7 +4360,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1731442808}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4290,7 +4394,7 @@ GameObject:
   - 82: {fileID: 1769730524}
   - 82: {fileID: 1769730523}
   - 82: {fileID: 1769730522}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: M4_Rifle_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4570,103 +4674,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1769730520}
   m_Mesh: {fileID: 4300000, guid: 938dbaa0aa99e644f8a70c77f37a8a3d, type: 3}
---- !u!1 &1786511411
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1786511413}
-  - 82: {fileID: 1786511412}
-  m_Layer: 0
-  m_Name: TheLonesomeDeathofJonasGrumby_DRAUDETTE_4web
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1786511412
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1786511411}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cc1024dba7767c04db51cf50d2379d51, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
---- !u!4 &1786511413
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1786511411}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
 --- !u!1 &1792735267
 GameObject:
   m_ObjectHideFlags: 0
@@ -4675,7 +4682,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1792735268}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4703,7 +4710,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1800190150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightFootToeBase_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4730,7 +4737,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1828902927}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4758,7 +4765,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1851973102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4786,7 +4793,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1855250407}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4814,7 +4821,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1855896302}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4909,7 +4916,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1903090137}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4929,6 +4936,47 @@ Transform:
   - {fileID: 348423480}
   m_Father: {fileID: 1638717739}
   m_RootOrder: 0
+--- !u!1 &1907083471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1907083473}
+  - 114: {fileID: 1907083472}
+  m_Layer: 0
+  m_Name: Persistent Data Storage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1907083472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907083471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b999964fc0ef1545b0dae9654e941d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  wave: 0
+--- !u!4 &1907083473
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907083471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 269.115448, y: 151.519989, z: 1349.43994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1929843616
 GameObject:
   m_ObjectHideFlags: 0
@@ -4957,8 +5005,40 @@ Transform:
   - {fileID: 186306669}
   - {fileID: 123734553}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
---- !u!4 &1943309879 stripped
+  m_RootOrder: 6
+--- !u!1 &1937143197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1937143198}
+  m_Layer: 2
+  m_Name: Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937143198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937143197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.6103859, y: 1.05488586, z: 7.94033194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1664740652}
+  - {fileID: 2041054457}
+  - {fileID: 389239612}
+  - {fileID: 282365175}
+  - {fileID: 277571237}
+  m_Father: {fileID: 827020817}
+  m_RootOrder: 1
+--- !u!4 &1943309879
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 0cd7a7c221fea2f449a3fe6027a20675, type: 3}
   m_PrefabInternal: {fileID: 857024720}
@@ -4989,8 +5069,8 @@ Transform:
   m_Children:
   - {fileID: 1971603569}
   m_Father: {fileID: 827020817}
-  m_RootOrder: 6
---- !u!4 &1971603569 stripped
+  m_RootOrder: 8
+--- !u!4 &1971603569
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1da67dcf0dc91a745a078e8dbc92a146, type: 2}
   m_PrefabInternal: {fileID: 604258336}
@@ -5062,7 +5142,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2026080020}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5136,6 +5216,8 @@ Terrain:
     serializedVersion: 2
     rgba: 4286545791
   m_LegacyShininess: .078125
+  m_UseDefaultSmoothness: 1
+  m_DefaultSmoothness: 0
   m_MaterialTemplate: {fileID: 0}
   m_BakeLightProbesForTrees: 1
   m_ScaleInLightmap: 1
@@ -5160,7 +5242,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2029252410}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5179,6 +5261,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1050945912}
   m_RootOrder: 0
+--- !u!1 &2031104776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2031104777}
+  m_Layer: 0
+  m_Name: Invisible Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031104777
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031104776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.1100006, y: .160003662, z: 5.9000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 827020817}
+  m_RootOrder: 0
 --- !u!1 &2032307062
 GameObject:
   m_ObjectHideFlags: 0
@@ -5187,7 +5296,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2032307063}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5207,7 +5316,11 @@ Transform:
   - {fileID: 781166333}
   m_Father: {fileID: 738940830}
   m_RootOrder: 0
---- !u!4 &2060542688 stripped
+--- !u!4 &2041054457
+Transform:
+  m_PrefabParentObject: {fileID: 427976, guid: 4e8d8d203a9649b418dc31415dfa886d, type: 2}
+  m_PrefabInternal: {fileID: 1642598473}
+--- !u!4 &2060542688
 Transform:
   m_PrefabParentObject: {fileID: 400016, guid: 4be90c5d9ce40a648bb37474c93d9c02, type: 3}
   m_PrefabInternal: {fileID: 568621403}
@@ -5240,7 +5353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.6314553}
   m_Children: []
   m_Father: {fileID: 827020817}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!23 &2073615353
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5294,7 +5407,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2082020621}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: swat:LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5322,6 +5435,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2086804246}
   - 114: {fileID: 2086804245}
+  - 82: {fileID: 2086804247}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -5340,11 +5454,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59047c0d7f1b4470ca78946654bd10e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToSpawn: {fileID: 719004658}
-  totalToSpawn: 10
-  spawnInterval: 1
+  ObjectToSpawn: {fileID: 157676, guid: a418f4cab67b84fbb873f37037eb12bf, type: 2}
+  totalToSpawn: 1
+  spawnInterval: 0
   iface: {fileID: 1674283218}
   numZombiesPerWave: 5
+  playerTransform: {fileID: 728350400}
 --- !u!4 &2086804246
 Transform:
   m_ObjectHideFlags: 0
@@ -5356,4 +5471,73 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
+--- !u!82 &2086804247
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086804244}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cc1024dba7767c04db51cf50d2379d51, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .321999997
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2

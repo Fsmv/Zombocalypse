@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: bush1
-  m_Shader: {fileID: 10512, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: bush2
+  m_Shader: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -18,33 +18,30 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 44f76043bd112e38a00062d88f962b59, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BrushClamp
-        second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 420ddf96bd116869a000fb488f962b59, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Cutoff
-        second: .699999988
+        second: .5
       data:
         first:
           name: _Occlusion
-        second: 0
+        second: 7.5
       data:
         first:
           name: _BaseLight
-        second: .556603789
+        second: .349999994
       data:
         first:
           name: _AO
-        second: 6.69811296
+        second: 2.4000001
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
     m_Colors:
       data:
         first:
@@ -60,8 +57,12 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
-          name: _BrushClamp_ST
-        second: {r: 1, g: 1, b: 0, a: 0}
+          name: _TreeInstanceColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TreeInstanceScale
+        second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6

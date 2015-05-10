@@ -13,12 +13,14 @@ public class Interface : MonoBehaviour {
 	public int startLives = 3;
 	public Shooter shooter;
 	public Text ScoreText, EnemiesText, MagazineText, LivesText, wonText, lostText, WaveText;
+	GameObject storageObject;
 
 	void Start () {
 		score = 0;
 		numLives = 3;
 		lost = false;
 		won = false;
+		storageObject = GameObject.Find ("Persistent Data Storage");
 	}
 
 	void Update () {
@@ -39,6 +41,8 @@ public class Interface : MonoBehaviour {
 		} else if (lost) {
 			lostText.enabled = true;
 		}
+		storageObject.GetComponent<PersistentScript>().score = score;
+		storageObject.GetComponent<PersistentScript>().wave = waveNum;
 	}
 
 	public void OnEnemyKill(int scoreAmount, bool playerKill) {
