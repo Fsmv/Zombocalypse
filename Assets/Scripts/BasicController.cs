@@ -26,12 +26,12 @@ public class BasicController : MonoBehaviour
 	void Update () {
 		float accel = 1.0f;	
 		if (controller.isGrounded) {	
-			if (Input.GetKey (KeyCode.Space)) {
+			/*if (Input.GetKey (KeyCode.Space)) {
 				animator.SetBool ("Jump", true);
 				verticalSpeed = jumpSpeed;
 			} else {
 				animator.SetBool ("Jump", false);                
-			}
+			}*/
 			if (Input.GetKey (KeyCode.RightShift) || Input.GetKey (KeyCode.LeftShift)) {
 				accel = 4.0f;	
 			} else {
@@ -59,11 +59,11 @@ public class BasicController : MonoBehaviour
 				animator.SetBool ("TurnRight", false);	
 			}
 
-			if (Input.GetKeyDown (KeyCode.F) && animator.layerCount >= 2) {
+			/*if (Input.GetKeyDown (KeyCode.F) && animator.layerCount >= 2) {
 				animator.SetBool ("Grenade", true);
 			} else {
 				animator.SetBool ("Grenade", false);
-			}
+			}*/
 
 			if (shooter.isFiring () && animator.layerCount >= 2) {
 				animator.SetBool ("Fire", true);

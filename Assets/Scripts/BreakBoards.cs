@@ -7,7 +7,7 @@ public class BreakBoards : MonoBehaviour {
 	public float timeToRepair = 8.0f;
 	public bool unbreakable = false;
 
-	private AudioSource pounding, breaking;
+	private AudioSource pounding, breaking, repairing;
 	private NavMeshObstacle obstacle;
 
 	private int health = 3;
@@ -26,6 +26,8 @@ public class BreakBoards : MonoBehaviour {
 				pounding = source;
 			}else if(source.clip.name == "breaking") {
 				breaking = source;
+			}else if(source.clip.name == "repairing") {
+				repairing = source;
 			}
 		}
 	}
@@ -84,6 +86,7 @@ public class BreakBoards : MonoBehaviour {
 				if(!startedRepair) {
 					lastRepairTime = Time.realtimeSinceStartup;
 					startedRepair = true;
+					repairing.Play();
 				}
 				if (Time.realtimeSinceStartup - lastRepairTime >= timeToRepair) {
 					if(health <= 3) {
@@ -108,6 +111,7 @@ public class BreakBoards : MonoBehaviour {
 			}else{
 				lastRepairTime = Time.realtimeSinceStartup;
 				startedRepair = false;
+				repairing.Stop();
 			}
 		}
 	}
